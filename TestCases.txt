@@ -1,0 +1,31 @@
+Test Case 01: Access Swag Labs with a valid user
+Access the page https://www.saucedemo.com/
+Perform login and verify that the user is on the products page
+
+Test Case 02: Access Swag Labs with an invalid user
+Access the page https://www.saucedemo.com/
+Perform login with an invalid user and verify that the user is on the login page with an error message.
+
+Test Case 03: Access Swag Labs with a valid user, add a product to the cart
+Access the page https://www.saucedemo.com/
+Perform login and verify that the user is on the products page
+Add a product to the cart and verify that the product is in the cart
+
+Test Case 04: Access Swag Labs with a valid user, add and remove a product from the cart
+Access the page https://www.saucedemo.com/
+Perform login and verify that the user is on the products page
+Add a product to the cart and verify that the product is in the cart
+Remove the product from the cart and verify that the product is not in the cart
+
+Test Case 05: Access Swag Labs with a valid user, add a product to the cart and perform checkout
+Access the page https://www.saucedemo.com/
+Perform login and verify that the user is on the products page
+Add a product to the cart and verify that the product is in the cart
+Perform checkout and verify that the user is on the checkout page
+
+Test Case 06: Access Swag Labs with a valid user, add a product to the cart, perform checkout and cancel purchase
+Access the page https://www.saucedemo.com/
+Perform login and verify that the user is on the products page
+Add a product to the cart and verify that the product is in the cart
+Perform checkout and verify that the user is on the checkout page
+Cancel the purchase and verify that the user is back on the cart page.
